@@ -1,21 +1,17 @@
-//
-//  ContentView.swift
-//  DashZane (Final Project)
-//
-//  Created by Zane Matarieh on 11/19/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @State private var signupID = UUID() // Force refresh of signup view
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            VStack {
+                NavigationLink("Log In", destination: SwiftUIViewLogin())
+                    .padding()
+                NavigationLink("Sign Up", destination: SwiftUIViewSignup().id(signupID))
+                    .padding()
+            }
+            .navigationTitle("DashZane")
         }
-        .padding()
     }
 }
 
