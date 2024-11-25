@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		16FA22502CEF8EAE00E3C487 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FA224F2CEF8EAE00E3C487 /* UserData.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		167F1B6C2CECEE0300720DB3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,22 +31,13 @@
 		167F1B5B2CECEE0000720DB3 /* DashZane (Final Project).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DashZane (Final Project).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		167F1B6B2CECEE0300720DB3 /* DashZane (Final Project)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DashZane (Final Project)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		167F1B752CECEE0300720DB3 /* DashZane (Final Project)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DashZane (Final Project)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16FA224F2CEF8EAE00E3C487 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		167F1B5D2CECEE0000720DB3 /* DashZane (Final Project) */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "DashZane (Final Project)";
-			sourceTree = "<group>";
-		};
-		167F1B6E2CECEE0300720DB3 /* DashZane (Final Project)Tests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "DashZane (Final Project)Tests";
-			sourceTree = "<group>";
-		};
-		167F1B782CECEE0300720DB3 /* DashZane (Final Project)UITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "DashZane (Final Project)UITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +70,8 @@
 		167F1B522CECEE0000720DB3 = {
 			isa = PBXGroup;
 			children = (
+				16FA224F2CEF8EAE00E3C487 /* UserData.swift */,
 				167F1B5D2CECEE0000720DB3 /* DashZane (Final Project) */,
-				167F1B6E2CECEE0300720DB3 /* DashZane (Final Project)Tests */,
-				167F1B782CECEE0300720DB3 /* DashZane (Final Project)UITests */,
 				167F1B5C2CECEE0000720DB3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +124,6 @@
 			dependencies = (
 				167F1B6D2CECEE0300720DB3 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				167F1B6E2CECEE0300720DB3 /* DashZane (Final Project)Tests */,
-			);
 			name = "DashZane (Final Project)Tests";
 			packageProductDependencies = (
 			);
@@ -152,9 +143,6 @@
 			);
 			dependencies = (
 				167F1B772CECEE0300720DB3 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				167F1B782CECEE0300720DB3 /* DashZane (Final Project)UITests */,
 			);
 			name = "DashZane (Final Project)UITests";
 			packageProductDependencies = (
@@ -236,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16FA22502CEF8EAE00E3C487 /* UserData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
