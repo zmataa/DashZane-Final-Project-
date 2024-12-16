@@ -10,7 +10,7 @@ struct ContentView: View {
             ZStack {
                 Color.green.opacity(0.2).edgesIgnoringSafeArea(.all) //background color
                 VStack {
-                    Image("logo")
+                    Image("logo") //my logo
                         .resizable()
                            .scaledToFit()
                            .scaleEffect(0.8)

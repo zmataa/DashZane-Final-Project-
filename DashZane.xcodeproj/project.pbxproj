@@ -29,15 +29,15 @@
 
 /* Begin PBXFileReference section */
 		163441692CFE10BE0038F72C /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserData.swift; path = "DashZane (Final Project)/UserData.swift"; sourceTree = "<group>"; };
-		167F1B5B2CECEE0000720DB3 /* DashZane (Final Project).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DashZane (Final Project).app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		167F1B6B2CECEE0300720DB3 /* DashZane (Final Project)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DashZane (Final Project)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		167F1B752CECEE0300720DB3 /* DashZane (Final Project)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DashZane (Final Project)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		167F1B5B2CECEE0000720DB3 /* DashZane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DashZane.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		167F1B6B2CECEE0300720DB3 /* DashZaneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DashZaneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		167F1B752CECEE0300720DB3 /* DashZaneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DashZaneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		167F1B5D2CECEE0000720DB3 /* DashZane (Final Project) */ = {
+		167F1B5D2CECEE0000720DB3 /* DashZane */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "DashZane (Final Project)";
+			path = DashZane;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -71,7 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				163441692CFE10BE0038F72C /* UserData.swift */,
-				167F1B5D2CECEE0000720DB3 /* DashZane (Final Project) */,
+				167F1B5D2CECEE0000720DB3 /* DashZane */,
 				167F1B5C2CECEE0000720DB3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,9 +79,9 @@
 		167F1B5C2CECEE0000720DB3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				167F1B5B2CECEE0000720DB3 /* DashZane (Final Project).app */,
-				167F1B6B2CECEE0300720DB3 /* DashZane (Final Project)Tests.xctest */,
-				167F1B752CECEE0300720DB3 /* DashZane (Final Project)UITests.xctest */,
+				167F1B5B2CECEE0000720DB3 /* DashZane.app */,
+				167F1B6B2CECEE0300720DB3 /* DashZaneTests.xctest */,
+				167F1B752CECEE0300720DB3 /* DashZaneUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,9 +89,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		167F1B5A2CECEE0000720DB3 /* DashZane (Final Project) */ = {
+		167F1B5A2CECEE0000720DB3 /* DashZane */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 167F1B7F2CECEE0300720DB3 /* Build configuration list for PBXNativeTarget "DashZane (Final Project)" */;
+			buildConfigurationList = 167F1B7F2CECEE0300720DB3 /* Build configuration list for PBXNativeTarget "DashZane" */;
 			buildPhases = (
 				167F1B572CECEE0000720DB3 /* Sources */,
 				167F1B582CECEE0000720DB3 /* Frameworks */,
@@ -102,18 +102,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				167F1B5D2CECEE0000720DB3 /* DashZane (Final Project) */,
+				167F1B5D2CECEE0000720DB3 /* DashZane */,
 			);
-			name = "DashZane (Final Project)";
+			name = DashZane;
 			packageProductDependencies = (
 			);
 			productName = "DashZane (Final Project)";
-			productReference = 167F1B5B2CECEE0000720DB3 /* DashZane (Final Project).app */;
+			productReference = 167F1B5B2CECEE0000720DB3 /* DashZane.app */;
 			productType = "com.apple.product-type.application";
 		};
-		167F1B6A2CECEE0300720DB3 /* DashZane (Final Project)Tests */ = {
+		167F1B6A2CECEE0300720DB3 /* DashZaneTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 167F1B822CECEE0300720DB3 /* Build configuration list for PBXNativeTarget "DashZane (Final Project)Tests" */;
+			buildConfigurationList = 167F1B822CECEE0300720DB3 /* Build configuration list for PBXNativeTarget "DashZaneTests" */;
 			buildPhases = (
 				167F1B672CECEE0300720DB3 /* Sources */,
 				167F1B682CECEE0300720DB3 /* Frameworks */,
@@ -124,16 +124,16 @@
 			dependencies = (
 				167F1B6D2CECEE0300720DB3 /* PBXTargetDependency */,
 			);
-			name = "DashZane (Final Project)Tests";
+			name = DashZaneTests;
 			packageProductDependencies = (
 			);
 			productName = "DashZane (Final Project)Tests";
-			productReference = 167F1B6B2CECEE0300720DB3 /* DashZane (Final Project)Tests.xctest */;
+			productReference = 167F1B6B2CECEE0300720DB3 /* DashZaneTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		167F1B742CECEE0300720DB3 /* DashZane (Final Project)UITests */ = {
+		167F1B742CECEE0300720DB3 /* DashZaneUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 167F1B852CECEE0300720DB3 /* Build configuration list for PBXNativeTarget "DashZane (Final Project)UITests" */;
+			buildConfigurationList = 167F1B852CECEE0300720DB3 /* Build configuration list for PBXNativeTarget "DashZaneUITests" */;
 			buildPhases = (
 				167F1B712CECEE0300720DB3 /* Sources */,
 				167F1B722CECEE0300720DB3 /* Frameworks */,
@@ -144,11 +144,11 @@
 			dependencies = (
 				167F1B772CECEE0300720DB3 /* PBXTargetDependency */,
 			);
-			name = "DashZane (Final Project)UITests";
+			name = DashZaneUITests;
 			packageProductDependencies = (
 			);
 			productName = "DashZane (Final Project)UITests";
-			productReference = 167F1B752CECEE0300720DB3 /* DashZane (Final Project)UITests.xctest */;
+			productReference = 167F1B752CECEE0300720DB3 /* DashZaneUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -174,7 +174,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 167F1B562CECEE0000720DB3 /* Build configuration list for PBXProject "DashZane (Final Project)" */;
+			buildConfigurationList = 167F1B562CECEE0000720DB3 /* Build configuration list for PBXProject "DashZane" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -188,9 +188,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				167F1B5A2CECEE0000720DB3 /* DashZane (Final Project) */,
-				167F1B6A2CECEE0300720DB3 /* DashZane (Final Project)Tests */,
-				167F1B742CECEE0300720DB3 /* DashZane (Final Project)UITests */,
+				167F1B5A2CECEE0000720DB3 /* DashZane */,
+				167F1B6A2CECEE0300720DB3 /* DashZaneTests */,
+				167F1B742CECEE0300720DB3 /* DashZaneUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -247,12 +247,12 @@
 /* Begin PBXTargetDependency section */
 		167F1B6D2CECEE0300720DB3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 167F1B5A2CECEE0000720DB3 /* DashZane (Final Project) */;
+			target = 167F1B5A2CECEE0000720DB3 /* DashZane */;
 			targetProxy = 167F1B6C2CECEE0300720DB3 /* PBXContainerItemProxy */;
 		};
 		167F1B772CECEE0300720DB3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 167F1B5A2CECEE0000720DB3 /* DashZane (Final Project) */;
+			target = 167F1B5A2CECEE0000720DB3 /* DashZane */;
 			targetProxy = 167F1B762CECEE0300720DB3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -384,7 +384,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DashZane (Final Project)/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DashZane/Preview Content\"";
 				DEVELOPMENT_TEAM = P2TQUSUDZ6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -398,7 +398,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.zane.DashZane--Final-Project-";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zane.DashZane;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -413,7 +413,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DashZane (Final Project)/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DashZane/Preview Content\"";
 				DEVELOPMENT_TEAM = P2TQUSUDZ6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -427,7 +427,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.zane.DashZane--Final-Project-";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zane.DashZane;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -450,7 +450,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DashZane (Final Project).app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DashZane (Final Project)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DashZane.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DashZane";
 			};
 			name = Debug;
 		};
@@ -469,7 +469,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DashZane (Final Project).app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DashZane (Final Project)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DashZane.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DashZane";
 			};
 			name = Release;
 		};
@@ -510,7 +510,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		167F1B562CECEE0000720DB3 /* Build configuration list for PBXProject "DashZane (Final Project)" */ = {
+		167F1B562CECEE0000720DB3 /* Build configuration list for PBXProject "DashZane" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				167F1B7D2CECEE0300720DB3 /* Debug */,
@@ -519,7 +519,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		167F1B7F2CECEE0300720DB3 /* Build configuration list for PBXNativeTarget "DashZane (Final Project)" */ = {
+		167F1B7F2CECEE0300720DB3 /* Build configuration list for PBXNativeTarget "DashZane" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				167F1B802CECEE0300720DB3 /* Debug */,
@@ -528,7 +528,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		167F1B822CECEE0300720DB3 /* Build configuration list for PBXNativeTarget "DashZane (Final Project)Tests" */ = {
+		167F1B822CECEE0300720DB3 /* Build configuration list for PBXNativeTarget "DashZaneTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				167F1B832CECEE0300720DB3 /* Debug */,
@@ -537,7 +537,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		167F1B852CECEE0300720DB3 /* Build configuration list for PBXNativeTarget "DashZane (Final Project)UITests" */ = {
+		167F1B852CECEE0300720DB3 /* Build configuration list for PBXNativeTarget "DashZaneUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				167F1B862CECEE0300720DB3 /* Debug */,
