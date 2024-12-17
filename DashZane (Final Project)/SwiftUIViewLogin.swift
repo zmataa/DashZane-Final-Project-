@@ -7,7 +7,7 @@ struct SwiftUIViewLogin: View {
     
     @State private var username = ""
     @State private var password = ""
-    @State private var message = ""
+    @State private var message = "" // used to display the login message (succesful or not)
     
     var body: some View {
         ZStack{
@@ -41,15 +41,12 @@ struct SwiftUIViewLogin: View {
     }
     
     private func logInUser() {
-        print("Users array: \(users)") // Add this debug print to check the users array.
-        print("Entered username: \(username), Entered password: \(password)") // Add debug prints for username and password.
-        
-        
+        //loop through the users array, for each user check if its username and password match up to the one typed into the textbox
         for auser in users{
             if(auser.username == username && auser.password == password){
                 user = auser
-                message = "Login successful!"
-                DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+                message = "Login successful!" //if it does work, login is succesful
+                DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) { //dispatchque.main refers to the main thread where all ui updates go through, asyncafter sets an asynchronous action to happen after deadline: .now current time + 1 second, then sets loggedin to true and takes you to mainapp page
                     isLoggedIn = true
                 }
             }
